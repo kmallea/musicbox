@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { header } from "./components/header";
 
 function App() {
+  const remoteTestLogo = "https://via.placeholder.com/150";
   return (
     <div className="App">
+      {header(remoteTestLogo)}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
